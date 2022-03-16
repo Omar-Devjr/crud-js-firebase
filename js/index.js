@@ -14,6 +14,7 @@ const description = taksForm['task-description']
 
 saveTask(title.value, description.value)
 
+taksForm.reset()
 
 })
 
