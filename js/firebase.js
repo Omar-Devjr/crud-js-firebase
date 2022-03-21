@@ -22,5 +22,6 @@
 
 
   export const saveTask  = (title, description) => {
+    addDoc(collection(db, "task"), {title, description})
     console.log(title,description)
   }
